@@ -1,0 +1,51 @@
+.body{
+    display: flex;
+  flex-wrap: wrap;
+  font-family: Helvetica, Sans-Serif;
+}
+
+#title{
+    padding-left: 2px;
+    color: rgb(36, 137, 173);
+    font-size: 42px;
+    margin-bottom: auto;
+}
+
+#hr{
+    color: rgb(36, 137, 173);
+    border-color: rgb(36, 137, 173);
+    height: 2px;
+    background: rgb(36, 137, 173);
+}
+
+.infodata{
+    font: Helvetica;
+    flex: 1;
+    padding: 20px;
+    border: 4px solid #eaeaea;  
+    background: #eaeaea;
+    margin-left: 20px ;
+}
+
+.main{
+    font: Helvetica;
+    flex: 3;
+    padding: 20px;
+    margin: 10px;
+    margin-right: 95px ;
+
+}
+
+.par1{
+    font: Helvetica;
+    font-size: 18px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills{
+    font-size: 20px;
+}
