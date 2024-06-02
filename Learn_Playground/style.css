@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+/* the above is used to reset the default css styling state */
+
+:root{
+    --bg-color: #080808;
+    --second-bg-color: #131313;
+    --text-color: #ffffff;
+    --main-color: #00ffee;
+}
+
+/* It states and changes the default values in the root lvl and then access them as a global variables " */
+
+html{
+    font-size: 60%;
+    overflow-x: scroll;
+
+    /* The overflow-x property specifies what should happen if content overflows an element's box horizontally. The hidden value means that any content that overflows the box along the x-axis will be hidden from view and no scroll bar will be provided to view it. */
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;    
+    width: 100%;
+    padding: 4rem 12% 4rem;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+}
