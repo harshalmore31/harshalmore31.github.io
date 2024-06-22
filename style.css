@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(85deg, #131313 0%, #000000 98%, #000000 100%);
+}
+
+
+.main{
+    display: flex;
+    justify-content: flex-start;
+}
+.navbar{
+    margin: 70px 0px 50px 200px;
+    padding: 45px 10px 10px 45px;
+    width: 75px;
+    border: 2px solid #1E1E1E;
+    color: white;
+    border-radius: 15px;
+}
+.display{            
+    margin: 70px 0px 50px 150px;    
+    padding: 80px 10px 20px 80px;                   
+    width: 944.8px;
+    height: 600.8px;
+    border: 2px solid #1E1E1E;
+    color: white;
+    border-radius: 15px;
+}
+
+.svg{
+    width: 2em;
+    height: 2em;
+}
